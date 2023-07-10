@@ -35,13 +35,13 @@ app.post('/portfolio/contactus',async (req,resp)=>
 
     // Email configurations
     const mailConfigurations = {
-        from: 'contactme@sakahsmabansal.com', // Sender email address
+        from: 'contactme@sakshambansal.com', // Sender email address
         to: email, // Recipient email address
         subject: "Contact Saksham Bansal", // Email subject
         text: s // Email body text
     };
     const mailConfigurations2 = {
-        from: 'contactme@sakahsmabansal.com', // Sender email address
+        from: 'contactme@sakshambansal.com', // Sender email address
         to: "sakshambansal743@gmail.com", // Recipient email address
         subject: "Contact Saksham Bansal", // Email subject
         text: `${email} want to talk to you about ${topic}`
