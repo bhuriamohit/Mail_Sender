@@ -17,7 +17,7 @@ app.post('/portfolio/contactus',async (req,resp)=>
     let s;
     if(topic=="About Internships" || topic=="About My work")
     {
-        s="Thanks for visiting my website you can contact me on following\nPersonal email : kartik150704@gmail.com\nMob No : 9817006334"
+        s="Thanks for visiting my website you can contact me on following\nPersonal email : bhuriamohit2004@gmail.com\nMob No : 9352988556"
     }
     else
     {
@@ -35,15 +35,15 @@ app.post('/portfolio/contactus',async (req,resp)=>
 
     // Email configurations
     const mailConfigurations = {
-        from: 'contactme@sakahsmabansal.com', // Sender email address
+        from: 'contactme@mohit.com', // Sender email address
         to: email, // Recipient email address
-        subject: "Contact Kartik Yadav", // Email subject
+        subject: "Contact Mohit Choudhary", // Email subject
         text: s // Email body text
     };
     const mailConfigurations2 = {
-        from: 'contactme@sakahsmabansal.com', // Sender email address
-        to: "sakshambansal743@gmail.com", // Recipient email address
-        subject: "Contact Kartik Yadav", // Email subject
+        from: 'contactme@mohit.com', // Sender email address
+        to: "bhuriamohit2004@gmail.com", // Recipient email address
+        subject: "Contact Mohit", // Email subject
         text: `${email} want to talk to you about ${topic}`
     };
 
