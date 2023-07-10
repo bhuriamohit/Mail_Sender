@@ -28,8 +28,8 @@ app.post('/portfolio/contactus',async (req,resp)=>
         port: 587, // Brevo SMTP server port
         secure: false, // Set to true if using SSL/TLS
         auth: {
-            user: 'kartikyadavwork01@gmail.com', // Your Brevo SMTP username/email
-            pass: 'dMtcR4OAC0JsZIqm' // Your Brevo SMTP password
+            user: 'pampaboii10@gmail.com', // Your Brevo SMTP username/email
+            pass: 'APCpqLKBMJxRQZSv' // Your Brevo SMTP password
         }
     });
 
