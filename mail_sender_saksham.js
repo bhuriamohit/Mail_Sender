@@ -17,7 +17,7 @@ app.post('/portfolio/contactus',async (req,resp)=>
     let s;
     if(topic=="About Internships" || topic=="About My work")
     {
-        s="Thanks for visiting my website you can contact me on following\nPersonal email : kartik150704@gmail.com\nMob No : 9817006334"
+        s="Thanks for visiting my website you can contact me on following\nPersonal email : sakshambansal743@gmail.com\nMob No : 7082882902"
     }
     else
     {
@@ -28,8 +28,8 @@ app.post('/portfolio/contactus',async (req,resp)=>
         port: 587, // Brevo SMTP server port
         secure: false, // Set to true if using SSL/TLS
         auth: {
-            user: 'kartikyadavwork01@gmail.com', // Your Brevo SMTP username/email
-            pass: 'dMtcR4OAC0JsZIqm' // Your Brevo SMTP password
+            user: 'pampaboii10@gmail.com', // Your Brevo SMTP username/email
+            pass: 'APCpqLKBMJxRQZSv' // Your Brevo SMTP password
         }
     });
 
